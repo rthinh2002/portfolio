@@ -16,8 +16,9 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a href='' style={{ display: "flex", alignItems: "center", color: "black", marginBottom: '20;', cursor: 'pointer' }}>
-            <Image src='https://firebasestorage.googleapis.com/v0/b/portfolio-3b961.appspot.com/o/logo.png?alt=media&token=63797e50-5ed1-440d-aa99-eb69e682ece1' /> <Span>Portfolio</Span>
+          <a href='/' style={{ display: "flex", alignItems: "center", color: "black", marginBottom: '20px', cursor: 'pointer' }}>
+            <Image src='https://firebasestorage.googleapis.com/v0/b/portfolio-3b961.appspot.com/o/logo.png?alt=media&token=63797e50-5ed1-440d-aa99-eb69e682ece1' /> 
+            <Span>Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>

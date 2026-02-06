@@ -6,7 +6,7 @@ export const Bio = {
         "Programmer",
     ],
     description:
-      "I am a passionate software engineer who loves to build and create new things, hands-on experience, and profound knowledge in software development. I’m dedicated to leverage my coding experience in application development and enhancing my craftsmanship to deliver efficient, reliable, and secure software solutions",
+      "Full Stack Software Engineer experienced in building and scaling SaaS platforms using C#/.NET and Angular/TypeScript. Proven ability to own end-to-end features, third-party API integrations, and Azure cloud infrastructure. Focused ondelivering performant, maintainable software in collaborative environments.",
     github: "https://github.com/rthinh2002",
     resume:"https://drive.google.com/file/d/1xz4R-ElwpHFfcURk8CoWYQfj-6PgMp-4/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/xuan-thinh-le/",
