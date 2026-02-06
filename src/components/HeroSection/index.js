@@ -1,10 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
 import { Bio } from '../../data/constants';
 import Typewriter from 'typewriter-effect';
 import HeroImg from '../../images/profile.jpg';
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroSectionStyledComponents'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './HeroSectionStyledComponents'
 
 const HeroSection = () => {
   return (
