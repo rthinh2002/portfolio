@@ -8,7 +8,7 @@ export const Bio = {
     description:
       "I am a passionate software engineer who loves to build and create new things, hands-on experience, and profound knowledge in software development. I’m dedicated to leverage my coding experience in application development and enhancing my craftsmanship to deliver efficient, reliable, and secure software solutions",
     github: "https://github.com/rthinh2002",
-    resume:"https://drive.google.com/file/d/1gTEVtG7mjxXaaTfIF8IhQ6mVjWxKZG9h/view?usp=sharing",
+    resume:"https://drive.google.com/file/d/1xz4R-ElwpHFfcURk8CoWYQfj-6PgMp-4/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/xuan-thinh-le/",
     insta: "https://www.instagram.com/peterlethinh/"
   };
@@ -25,7 +25,7 @@ export const Bio = {
         {
           name: "Angular",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Angular_gradient_logo.png/250px-Angular_gradient_logo.png",
         },
         {
           name: "HTML",
@@ -168,7 +168,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C560BAQF_upD0Bimgvg/company-logo_200_200/0/1659673023623/businessfitness_logo?e=1726099200&v=beta&t=HT2FY5LSib2dg4DvFarNY9FvbSUUt2QAdB5onoa1-hY",
+      img: "https://media.licdn.com/dms/image/v2/D560BAQEzeG67YuMcsw/company-logo_200_200/B56ZWIBW4MGUAM-/0/1741743812518/businessfitness_logo?e=2147483647&v=beta&t=qO3l5gWw8Tsi_cKYTs3xnk5yGQpPyL8VHHzd0fQrJzg",
       role: "Software Engineer",
       company: "Business Fitness",
       date: "Feb 2024 - Present",
@@ -208,7 +208,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://media.licdn.com/dms/image/C560BAQHNdVbuCxxmwQ/company-logo_200_200/0/1631578248124/bambrick_legal_logo?e=1726099200&v=beta&t=cG2bZ5hdu3yr5JvhJ6XQ9s9xON94NVA0kD5mlvR99tQ",
+      img: "https://bambricklegal.com.au/wp-content/uploads/2020/09/BL-logo-1.jpg",
       role: "AI Research Assistant",
       company: "Bambrick Legal",
       date: "Apr 2023 - Sep 2023",
@@ -231,7 +231,7 @@ export const Bio = {
     },
     {
       id: 3,
-      img: "https://media.licdn.com/dms/image/D560BAQGOfMTENdznKQ/company-logo_200_200/0/1684933450308/jung_talents_logo?e=1726099200&v=beta&t=PY2aTQzgRdr8Y-WO_ugRPpNYTcmlXKb9tDbJfXF4hLY",
+      img: "https://media.licdn.com/dms/image/v2/D560BAQGOfMTENdznKQ/company-logo_200_200/company-logo_200_200/0/1684933450308/jung_talents_logo?e=2147483647&v=beta&t=PLq1tHFkPCODJD3DkKb3rxd1FDFjscnejY2FesSwNoI",
       role: "Software Engineer",
       company: "Jung Talents",
       date: "Sep 2021 - Jan 2023",
