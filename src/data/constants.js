@@ -172,13 +172,13 @@ export const Bio = {
       role: "Software Engineer",
       company: "Business Fitness",
       date: "Feb 2024 - Present",
-      desc: `• Developed and maintained full-stack web applications, specializing in Angular and .NET, to deliver high-quality software solutions. 
-      • Designed and implemented complex accounting and document management systems, enhancing operational efficiency and accuracy.
-      • Leveraged Azure and MSSQL to securely process, upload, and download data, ensuring robust security and data integrity.
-      • Collaborated with cross-functional teams to deliver software solutions that met client requirements and business objectives.
-      • Developed efficient and scalable .NET APIs to facilitate seamless integration and interaction with various external systems.
-      • Created dynamic, user-friendly interfaces using Angular, improving user experience and application performance.
-      • Utilized Entity Framework Core to handle database migrations, ensuring smooth and efficient transitions with minimal downtime.`,
+      desc: `â€¢ Developed and maintained full-stack web applications, specializing in Angular and .NET, to deliver high-quality software solutions. 
+      â€¢ Designed and implemented complex accounting and document management systems, enhancing operational efficiency and accuracy.
+      â€¢ Leveraged Azure and MSSQL to securely process, upload, and download data, ensuring robust security and data integrity.
+      â€¢ Collaborated with cross-functional teams to deliver software solutions that met client requirements and business objectives.
+      â€¢ Developed efficient and scalable .NET APIs to facilitate seamless integration and interaction with various external systems.
+      â€¢ Created dynamic, user-friendly interfaces using Angular, improving user experience and application performance.
+      â€¢ Utilized Entity Framework Core to handle database migrations, ensuring smooth and efficient transitions with minimal downtime.`,
       skills: [
         "Angular",
         "Node JS",
@@ -194,7 +194,7 @@ export const Bio = {
       role: "Software Engineer",
       company: "eBottli",
       date: "Apr 2023 - Feb 2024",
-      desc: `• Responsible for frontend and backend development software product, while mentoring interns to contribute effectively to web and mobile app projects. \n• Engaged directly with clients and stakeholders to gather requirements, driving the design and implementation of modules and services that enhanced a SAAS product dedicated to wines and grapes production tracking.\n• Integrated RESTful APIs and used Swagger API for testing purpose, notably Stripe and Google Map API, into client web applications\n• Perform unit test, automated testing to ensure seamless functionality for client web applications.\n• Successfully deployed web application for production and client’s demo using AWS Lambda, S3, and CloudFront.\n• Work in an agile / scrum development environment, making daily report to CTO by technical documentation in daily sprint meetings.`,
+      desc: `â€¢ Responsible for frontend and backend development software product, while mentoring interns to contribute effectively to web and mobile app projects. \nâ€¢ Engaged directly with clients and stakeholders to gather requirements, driving the design and implementation of modules and services that enhanced a SAAS product dedicated to wines and grapes production tracking.\nâ€¢ Integrated RESTful APIs and used Swagger API for testing purpose, notably Stripe and Google Map API, into client web applications\nâ€¢ Perform unit test, automated testing to ensure seamless functionality for client web applications.\nâ€¢ Successfully deployed web application for production and clientâ€™s demo using AWS Lambda, S3, and CloudFront.\nâ€¢ Work in an agile / scrum development environment, making daily report to CTO by technical documentation in daily sprint meetings.`,
       skills: [
         "Angular",
         "Node JS",
@@ -212,9 +212,9 @@ export const Bio = {
       role: "AI Research Assistant",
       company: "Bambrick Legal",
       date: "Apr 2023 - Sep 2023",
-      desc: `• Work collaboratively on machine learning automation projects to optimize the company process.
-      \n• Authored AI tool usage guidelines and reports, delivering to the CEO, management team, and stakeholders.
-      \n• Attend daily sprint meetings, reported updates on the projects to CEO, applied communication skills technique.
+      desc: `â€¢ Work collaboratively on machine learning automation projects to optimize the company process.
+      \nâ€¢ Authored AI tool usage guidelines and reports, delivering to the CEO, management team, and stakeholders.
+      \nâ€¢ Attend daily sprint meetings, reported updates on the projects to CEO, applied communication skills technique.
       `,
       skills: [
         "Python",
@@ -235,10 +235,10 @@ export const Bio = {
       role: "Software Engineer",
       company: "Jung Talents",
       date: "Sep 2021 - Jan 2023",
-      desc: `• Spearheaded the design and development of Carina Eyes Care project tailored to the specific needs of clients in the healthcare sectors.
-      \n• Engaged in the PTE Master project by harnessing Reactjs, AWS, and TypeScript. Assisted the migration process from PHP to Nextjs.
-      \n• Contributed significantly to the Mentem project utilizing Nextjs, Reactjs, TypeScript, and Node.js.
-      \n• Orchestrated the deployment and proficiently managed web applications, leveraging a suite of AWS services including AWS Amplify for streamlined front-end automation deployment, EC2, CloudFront, and other associated tools.
+      desc: `â€¢ Spearheaded the design and development of Carina Eyes Care project tailored to the specific needs of clients in the healthcare sectors.
+      \nâ€¢ Engaged in the PTE Master project by harnessing Reactjs, AWS, and TypeScript. Assisted the migration process from PHP to Nextjs.
+      \nâ€¢ Contributed significantly to the Mentem project utilizing Nextjs, Reactjs, TypeScript, and Node.js.
+      \nâ€¢ Orchestrated the deployment and proficiently managed web applications, leveraging a suite of AWS services including AWS Amplify for streamlined front-end automation deployment, EC2, CloudFront, and other associated tools.
       `,
       skills: [
         "C#",
