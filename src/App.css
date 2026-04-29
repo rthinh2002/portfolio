@@ -1,41 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Portfolio Console Theme — dark blue, minimal, technical */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html{
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #050818;
+}
+
+:root {
+  --void: #050818;
+  --midnight: #0a0e27;
+  --surface: #111634;
+  --surface-2: #1a2048;
+  --line: #1f2750;
+  --line-soft: #161c3d;
+  --text: #e6ebff;
+  --text-dim: #8b95c7;
+  --text-mute: #5a649a;
+  --accent: #3b82f6;
+  --accent-soft: #60a5fa;
+  --accent-glow: rgba(59, 130, 246, 0.18);
+  --warn: #fbbf24;
+  --good: #34d399;
+  --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', 'Fira Code', monospace;
+}
+
+.pf {
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--midnight);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0.01em;
+}
+
+.pf * { box-sizing: border-box; }
+.pf .mono { font-family: var(--font-mono); letter-spacing: 0; }
+.pf .dim  { color: var(--text-dim); }
+.pf .mute { color: var(--text-mute); }
+.pf .accent { color: var(--accent-soft); }
+
+/* Main scrollable pane */
+.pf-frame {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: var(--midnight);
+  position: relative;
   scroll-behavior: smooth;
 }
+.pf-frame::-webkit-scrollbar { width: 6px; }
+.pf-frame::-webkit-scrollbar-track { background: transparent; }
+.pf-frame::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
+.pf-frame::-webkit-scrollbar-thumb:hover { background: var(--accent); }
 
-body{
-  margin: 0px !important;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
+/* Ambient grid overlay */
+.grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(59, 130, 246, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(59, 130, 246, 0.04) 1px, transparent 1px);
+  background-size: 64px 64px;
+  pointer-events: none;
+  z-index: 0;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 4px;
-    height: 80px;
+/* Modal */
+.pf-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 8, 24, 0.80);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadein 0.2s ease;
+}
+
+@keyframes fadein  { from { opacity: 0; }                         to { opacity: 1; } }
+@keyframes slideup { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes blink   { 50% { opacity: 0; } }
+
+.cursor-blink::after {
+  content: '▊';
+  margin-left: 2px;
+  animation: blink 1s step-end infinite;
+  color: var(--accent);
+}
+
+/* Buttons */
+.pf-btn {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 10px 18px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.pf-btn:hover {
+  border-color: var(--accent);
+  background: var(--accent-glow);
+  color: var(--accent-soft);
+}
+.pf-btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--void);
+  font-weight: 500;
+}
+.pf-btn-primary:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent-soft);
+  color: var(--void);
+}
+
+/* Tag chip */
+.tag {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  padding: 4px 9px;
+  border: 1px solid var(--line);
+  color: var(--text-dim);
+  display: inline-block;
+}
+.tag-accent { border-color: var(--accent); color: var(--accent-soft); }
+
+/* Responsive — small screens */
+@media (max-width: 1200px) {
+  .pf-hero-grid {
+    grid-template-columns: 1fr !important;
   }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background:#222A35;
+  .pf-hero-computer {
+    display: none;
   }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #575C66;
-    border-radius: 6px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #626970;
-  }
+}

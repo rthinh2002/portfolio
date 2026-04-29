@@ -168,7 +168,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/v2/D560BAQEzeG67YuMcsw/company-logo_200_200/B56ZWIBW4MGUAM-/0/1741743812518/businessfitness_logo?e=2147483647&v=beta&t=qO3l5gWw8Tsi_cKYTs3xnk5yGQpPyL8VHHzd0fQrJzg",
+      img: "/img/active.png",
       role: "Software Engineer",
       company: "Business Fitness",
       date: "Feb 2024 - Present",
@@ -190,7 +190,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/portfolio-3b961.appspot.com/o/ebottli.png?alt=media&token=38a8b886-fe8d-4153-83ac-515fa170397c",
+      img: "/img/ebottli.png",
       role: "Software Engineer",
       company: "eBottli",
       date: "Apr 2023 - Feb 2024",
@@ -208,7 +208,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://bambricklegal.com.au/wp-content/uploads/2020/09/BL-logo-1.jpg",
+      img: "/img/bambrick-legal.webp",
       role: "AI Research Assistant",
       company: "Bambrick Legal",
       date: "Apr 2023 - Sep 2023",
@@ -231,7 +231,7 @@ export const Bio = {
     },
     {
       id: 3,
-      img: "https://media.licdn.com/dms/image/v2/D560BAQGOfMTENdznKQ/company-logo_200_200/company-logo_200_200/0/1684933450308/jung_talents_logo?e=2147483647&v=beta&t=PLq1tHFkPCODJD3DkKb3rxd1FDFjscnejY2FesSwNoI",
+      img: "/img/jung-talents.jpg",
       role: "Software Engineer",
       company: "Jung Talents",
       date: "Sep 2021 - Jan 2023",
